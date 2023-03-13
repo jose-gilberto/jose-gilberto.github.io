@@ -1,42 +1,45 @@
 import Link from "next/dist/client/link"
-import "./header.module.css"
+import ActiveLink from "../active-link"
+
+import styles from "./header.module.css"
+
+const header_links = [
+    {linkName: 'about', linkUrl: '/'},
+    {linkName: 'publications', linkUrl: '/publications'}
+]
 
 export const Header = () => {
-    return <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container">
-                <Link className="navbar-brand" href="/">Gilberto Medeiros</Link>
-                <button className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
+    return (
+    <nav className={`navbar navbar-expand-lg bg-body-tertiary ${styles.navbar_menu}`}>
+        <div className="container-md">
+            <Link
+                className={`navbar-brand ${styles.navbar_brand} fw-light`}
+                href="/">
+                    <strong>Gilberto</strong> Medeiros
+            </Link>
+            <button className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                    {header_links.map(link => 
                         <li className="nav-item">
-                            <Link className="nav-link" href={'/publications'}>Publications</Link>
-                            {/* <a className="nav-link" href="/publications">Publications</a> */}
+                            <ActiveLink
+                                className={`nav-link ${styles.nav_link} fw-light`}
+                                activeClassName={`${styles.active_link}`}
+                                href={link.linkUrl}>
+                                {link.linkName}
+                            </ActiveLink>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="#">Talks</a>
-                        </li> */}
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="#">Teaching</a>
-                        </li> */}
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
-                        </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="#">Blog Posts</a>
-                        </li> */}
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">CV</a>
-                        </li>
-                    </ul>
-                </div>
+                    )}
+                </ul>
             </div>
+        </div>
     </nav>
-}
+)}

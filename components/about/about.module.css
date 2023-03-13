@@ -1,0 +1,16 @@
+.section_title {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.about_section {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.about_section > div > p >  a {
+    color: #b509ac !important;
+    text-decoration: none;
+}
+
+.about_section > div > p >  a:hover {
+    text-decoration: underline #b509ac;
+}

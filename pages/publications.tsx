@@ -11,11 +11,11 @@ export default function PublicationsPage () {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
             <style>
-            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
             </style>
         </Head>
         <main>
-            <Header></Header>
+            <Header/>
             <div className='container'>
             <div className='row'>
                 <Sidebar/>

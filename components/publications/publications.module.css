@@ -1,0 +1,23 @@
+.section_title, .section_subtitle, .publication_card {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.publication_year {
+    font-family: 'Roboto', sans-serif !important;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.publication_btn {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.publication_btn:hover {
+    background-color: white;
+    color: #b509ac;
+    border-color: #b509ac;
+}
+
+.publication_btn:active:focus {
+    background-color: #b509ac;
+    border-color: #b509ac;
+}

@@ -4,6 +4,14 @@
 
 .sidebar_author_img > img {
     border-radius: 50% !important;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(0, 0, 0, 0.2);
     padding: 5px;
+}
+
+.author_description p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social_links {
+    font-family: 'Roboto', sans-serif;
 }

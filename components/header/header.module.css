@@ -1,0 +1,15 @@
+.navbar_brand {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.nav_link {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.active_link {
+    color: #b509ac;
+}
+
+.navbar_menu {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
