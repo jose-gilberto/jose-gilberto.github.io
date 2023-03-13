@@ -29,7 +29,7 @@ export const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     {header_links.map(link => 
-                        <li className="nav-item">
+                        <li key={link.linkName} className="nav-item">
                             <ActiveLink
                                 className={`nav-link ${styles.nav_link} fw-light`}
                                 activeClassName={`${styles.active_link}`}
