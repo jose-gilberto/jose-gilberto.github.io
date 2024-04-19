@@ -6,13 +6,13 @@ subtitle: <a href='#'>Affiliations</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Institute of Mathematics and Computer Sciences - University of São Paulo</p>
-    <p>Laboratório de Inteligência Computacional - LabIC</p>
-    <p>Room: 1-010/1-007</p>
-    <p>Address: Avenida Trabalhador São-carlense, 400 - Centro</p>
+    <p>Institute of Mathematics and Computer Sciences</p>
+    <p><b>University of São Paulo</b></p>
+    <p><b>LabIC</b> Room: 1-010/1-007</p>
+    <p>Av. Trabalhador São-carlense, 400, Centro</p>
     <p>São Carlos / SP - Brasil, 13566-590</p>
 
 news: true # includes a list of news items
