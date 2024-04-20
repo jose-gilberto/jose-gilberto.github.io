@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-02-29 15:59:00-0400
+date: 2022-08-01 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Back to LabIC in Brazil to present the results of the visit to France 😄🇧🇷
+Started my master's at ICMC USP working with time series and deep learning. 😄
