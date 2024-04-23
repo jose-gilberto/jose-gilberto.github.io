@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Machine Learning for Time Series in mHealth Applications
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
