@@ -4,7 +4,7 @@ title: Time Series in mHealth
 description: Machine Learning for Time Series in mHealth Applications
 img: assets/img/undraw_fitness_tracker_3033.png
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
