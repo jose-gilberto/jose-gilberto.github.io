@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Machine Learning for Time Series in mHealth Applications
-description: a project with a background image
-img: assets/img/12.jpg
+title: Time Series in mHealth
+description: Machine Learning for Time Series in mHealth Applications
+img: assets/img/undraw_fitness_tracker_3033.png
 importance: 1
 category: work
 related_publications: true
