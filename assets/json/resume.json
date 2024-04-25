@@ -1,11 +1,10 @@
 {
   "basics": {
     "name": "José Gilberto Barbosa de Medeiros Júnior",
-    "label": "Scientist",
+    "label": "MSc. Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "gilberto.barbosa@usp.br",
+    "url": "https://jose-gilberto.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
