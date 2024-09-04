@@ -7,29 +7,51 @@
     "url": "https://jose-gilberto.github.io/",
     "summary": "Brazilian master's student working with time series and machine learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Avenida Trabalhador São-carlense, 400 - Centro",
+      "postalCode": "13566-590",
+      "city": "São Carlos",
+      "countryCode": "BR",
+      "region": "São Paulo"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "MOVE Analytics, BR",
+      "position": "Data Scientist Jr.",
+      "url": "",
+      "startDate": "2021-02-28",
+      "endDate": "2021-07-01",
+      "summary": "Responsible for creating and maintaining ETL routines through orchestrators, creating and maintaining data lake structures. Responsible for analyzing and extracting insights from data sets.",
+      "highlights": ["Classical Machine Learning", "ETL"]
+    },
+    {
+      "name": "Shaw and Partners, US",
+      "position": "Data Scientist",
+      "url": "",
+      "startDate": "2021-07-01",
+      "endDate": "2022-10-01",
+      "summary": "",
+      "highlights": ["Deep Learning", "Graphs"]
+    },
+    {
+      "name": "University of São Paulo, BR",
+      "position": "Scholarship Holder",
+      "url": "",
+      "startDate": "2023-03-01",
+      "endDate": "",
+      "summary": "Work at the Computational Intelligence Laboratory (LabIC)",
+      "highlights": ["Time Series", "Deep Learning", "One-Class Learning"]
+    },
+    {
+      "name": "University of São Paulo, BR",
+      "position": "Teaching Assistant - PAE",
+      "url": "",
+      "startDate": "2023-07-01",
+      "endDate": "2023-12-31",
+      "summary": "Internship in the Teaching Improvement Program carried out in the Machine Learning for Time Series Discipline in the Computer Science Undergraduate Course.",
+      "highlights": []
     }
   ],
   "volunteer": [
