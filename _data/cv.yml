@@ -2,31 +2,35 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: José Gilberto Barbosa de Medeiros Júnior
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21th January 1999
     - name: Languages
-      value: English, German
+      value: English, Portuguese, Spanish
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of São Paulo, São Carlos, Brazil
+      year: 2025 - Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Artificial Intelligence
+        - Machine learning
+        - Quantification
+        - Time Series
+        - title: Applications
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Health
+            - Biodiversity
+    - title:  MSc.
+      institution: University of São Paulo, São Carlos, Brazil
+      year: 2023-2025
       description:
-        - Description 1.
-        - Description 2.
+        - Artificial Intelligence
+        - Deep learning
+        - Time Series
+        - One-class Learning
 
 - title: Experience
   type: time_table
